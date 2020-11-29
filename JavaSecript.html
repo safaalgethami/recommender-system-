@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>javasecript</title>
+  </head>
+  <body>
+
+<script>
+//lesson 8 funcation
+console.log("please fill the survey;");
+let informationtechnology = "Information Technology";
+let finance = "Finance" ;
+let accounting ="Accounting";
+
+let intrested =prompt('Are you interseted in Information Technology or Finance or Accounting!');
+console.log(intrested);
+console.log(typeof(intrested));
+
+if (intrested === informationtechnology){
+console.log(' you are intrested in IT');
+console.log(' Here some suggested courses to help you in IT filed ')
+show_IT_Courses();//funcation call
+}
+else if (intrested === finance) {
+  console.log('Here some suggested courses to help you in Finance');
+  show_finance_courses()
+}
+else if (intrested === accounting) {
+  console.log('Here some suggested courses to help you in Accounting');
+  show_Accounting_Courses();
+}
+else {
+  console.log('please suggested courses');
+}
+
+  function show_IT_Courses(){
+    information_technology = "Information Technology";
+    computer_sciences = "computer sciences";
+    console.log(information_technology);
+    console.log(computer_sciences);
+    }
+  //  show_IT_Courses();
+  function show_Accounting_Courses(){
+      accounting = "accounting";
+      console.log(accounting);
+      }
+  function show_finance_courses(){
+    finance = "finance";
+    Financial_Planner = "Financial Planner";
+    Financial_Risk_Manager = "Financial Risk Manager";
+    console.log(Financial_Risk_Manager);
+    console.log(Financial_Planner);
+    console.log(finance);
+  }
+
+
+//lesson 7 loops
+// let i =0;
+// while(i <= 10) {
+//   console.log(i);
+//   i++;
+// }
+// let i=0;
+// do{
+//   console.log(i);
+//   i++;
+// }while(i < 10);
+//for(begin; condition; afterBodycode){}
+// for(let i = 0; i <= 10; i++){
+//   console.log(i);
+// }
+//breake
+// let i = 0;
+// while(i <= 10){
+//   if(i === 4){
+//     break;
+//   }
+//   console.log(i);
+//   i++;
+// }
+
+
+//lessons 6 logic
+//1 operator: + , ++ , - , -- , * , ** , / , % , = , == , ===
+// console.log('1+1='+ 1+1); // wrong! we sum string!
+// let sum = 1+1 ;
+// console.log("1+1 =" + sum);//best pracites
+// // what about ++ is increment!
+// let i =1 ;
+// i++; //meaning 1+1
+// i++; // 2+1
+// i--;//3-1
+// console.log(i);
+// console.log(2*6);//*
+// console.log(2**3);// ** علامة اس
+// console.log(3/1);// /
+// console.log(4%2); // باقي القسمة% النتاج صفر لان مافيه باقي قسمة
+//   let s=1;// assignment
+//   //s ==1; //يقارن قيمة ==
+//   //s === 1;// يقارن قيمة ونوع البيانات ===
+//   console.log(s == false);
+//   console.log(s === false);
+
+//2 Comparisons : > greater than , < less than , >= greater than or equal , <= less than or equal! , == , != not equal
+// let result = 1> 2 ; //false
+// console.log(result);
+//if condation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//lessons 5 interaction with user: use prompt
+  // let answear= prompt('how are you?');//رح تنحفظ القيمة اللي ادخلناها من اليوزر قي المتغير انسر
+  // console.log(answear);//هنا بعد اليوزر يدخل اجابتة راح نطبعها
+  //
+  // let yes = confirm('Are you ok?');
+  // console.log(yes);
+  //
+
+// let num= 11;
+// let string = String(num);//use String() to convert num to string.
+// console.log(typeof string); // use typeof() to print varible types
+// console.log(typeof num);
+
+// //string types
+// let name ="Safa" ; //1 normal string
+// let yours='maha'; //2 normal string
+// let age=12;
+// let masseag= `Welcome ${name}`;//3 back text ``, it can insert varible
+// console.log(masseag);
+// "use strict"; //her we use strict mode to cheack
+// let xyz =8 ;
+// alert("xyz");
+// alert(123);
+// console.log(xyz);
+
+
+</script>
+
+</body>
+</html>
